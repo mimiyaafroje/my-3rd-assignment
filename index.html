@@ -32,16 +32,17 @@
 </head>
 <body>
     <header>
-        <nav class=" sm:flex justify-around mr-3.5">
+        <nav class=" flex  justify-around mr-11 sm:mr-10">
             <div class="flex h-8 w-8 ">
                 <i class="fa-solid fa-arrow-right bg-lime-400 rounded-full p-2 h-7 w-7 items-center  "></i>
                 <h1 class="text-lg font-bold">Rinterio</h1>
 
             </div>
+            <div class="sm:hidden right-4"><i class="fa-solid fa-bars"></i></div>
         
-           <div>
+           <div class="hidden sm:block">
             <div class="flex space-x-6">
-                <ul class="font-bold">Home</ul>
+                <ul class=" font-bold">Home</ul>
                 <ul>Services</ul>
                 <ul>Portfolio</ul>
                 <ul>Blogs</ul>
@@ -49,14 +50,16 @@
  
             </div>
            </div>
-            <div class=" flex space-x-5 items-center ">
-                <i class="fa-solid fa-magnifying-glass"></i>
-                <i class="fa-solid fa-cart-shopping"></i>
-                <button class="flex bg-lime-400 rounded-3xl p-1">
-                    <p class="text-200 font-bold">Book Consult</p>
-                    <i class="fa-solid fa-arrow-right bg-black text-white rounded-full p-1 h-5 w-5 text-3 items-center "></i>
+            <div class="  flex   space-x-5 items-center  ">
+                <i class="hidden sm:block fa-solid fa-magnifying-glass"></i>
+                <i class="hidden sm:block fa-solid fa-cart-shopping"></i>
+               <div class="hidden sm:block"> 
+                <button class=" flex  bg-lime-400 rounded-3xl p-1 ">
+                <p class=" text-200 font-bold">Book Consult</p>
+                <i class=" fa-solid fa-arrow-right bg-black text-white rounded-full p-1 h-5 w-5 text-3 items-center "></i>
 
-                </button>
+            </button>
+        </div>
 
             </div>
         
@@ -113,7 +116,7 @@
 
             </div>
             <div>
-                <img class="sm: h-75 w-80" src="assets/Rectangle.png" alt="">
+                <img class=" h-75 w-80" src="assets/Rectangle.png" alt="">
 
             </div>
 
@@ -134,30 +137,43 @@
         </div>
     </main>
 
-       <div class=" bg-slate-100   space-x-6 sm:flex px-28   ">
+       <div class=" bg-slate-100    sm:space-x-6 sm:flex px-28   ">
 
-        <div class="bg-[#E7C1D3] p-5 rounded-md">
+        <div class="bg-[#E7C1D3] p-5 mb-6 rounded-md">
             <img src="assets/concept.png" alt="">
             <h3 class="font-bold text-2xl">Concept</h3>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
         </div>
-        <div class="bg-[#EFDA6E] p-5 rounded-md">
+        <div class="bg-[#EFDA6E] p-5 mb-6 rounded-md">
             <img src="assets/flow-chart.png" alt="">
             <h3  class="font-bold text-2xl">Design Process</h3>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
         </div>
-        <div class="bg-[#A4DAC3] p-5 rounded-md">
+        <div class="bg-[#A4DAC3] p-5 mb-6 rounded-md">
             <img src="assets/vision.png" alt="">
             <h3  class="font-bold text-2xl">Supervision</h3>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
         </div>
-        <div class="bg-[#77AAEA] p-5 rounded-md">
+        <div class="bg-[#77AAEA] p-5 mb-6 rounded-md">
             <img src="assets/budget-planning.png" alt="">
             <h3  class="font-bold text-2xl">Budget Planning</h3>
             <p>The barn house captivates with its blend of rustic charm and modern.</p>
 
         </div>
        </div>
+       <div class="mx-auto text-center mt-10 mb-10">
+        <button class=" mr-5 p-2 rounded-md bg-lime-100">
+            <i class="fa-solid fa-arrow-right"></i>
+            Explore our Latest works
+
+        </button>
+        <h3 class="text-3xl font-bold">Our Latest Portfolio</h3>
+        <p>The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+       </div>
+       <section>
+        
+       </section>
 
 
    
